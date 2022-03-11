@@ -1,0 +1,144 @@
+body {
+    margin: 0%;
+
+}
+.nav_bar {
+    position: fixed;
+    width: 100% ;
+   
+}
+ul {
+    margin: 0%;
+    list-style-type: none;
+    padding: 0%;
+    background-color: black;
+}
+li {
+    display: inline-block;
+    padding: 0% 3% 1% 2%;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+a:hover {
+    color: rgb(6, 165, 6);
+}
+img {
+    width: 65%;
+    height: 85%;
+    border-radius: 50%;
+}
+.image {
+    padding-top: 15%;
+    text-align: center;
+    background-image: url(https://thumbs.dreamstime.com/b/diet-healthy-food-lifestyle-health-concept-sport-exercise-equipment-workout-and-gym-background-nutrition-detox-salad-f-179855057.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   padding-bottom: 10%;
+}
+h1 {
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.image .btn {
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .image .btn:hover {
+    background-color: black;
+    color: white;
+  }
+.flex-content {
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+h1 {
+    text-align: center;
+}
+
+.flex-content > div {    
+    border: 2px solid black;
+    border-radius: 10%;
+    margin-top: 4%;
+    margin-right: 10%;
+    margin-left: 8%;
+    float: left;
+    margin-bottom: 3%;
+    background-color: rgb(240, 240, 248);
+    padding-left: 2%;
+    padding-right: 2%;
+}
+h3 {
+    font-size: xx-large;
+}
+h4 {
+    font-size: 18px;
+}
+.clients {
+    padding-top: 3%;
+    text-align: center;
+    background-image: url(https://cdn.stocksnap.io/img-thumbs/280h/hamburger-dinner_7QH4K6AESO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    padding-bottom: 15%;
+}
+h2 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 0%;
+    padding-top: 4%;
+}
+p {
+    display: inline-block;
+    margin-top: 8%;
+    padding-left: 2%;
+    
+}
+input {
+    padding: 1%;
+    margin: 0%;
+    border: 1px solid black;
+    width: 40%;
+    background-color: rgb(230, 231, 233);
+}
+.contact {
+    margin: 0%;
+    text-align: center;
+    font-size: larger;
+    
+    background-image: url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGVjaHxlbnwwfHwwfHw%3D&w=1000&q=80);
+    background-size: cover;
+    padding-bottom: 3%;
+}
+#message {
+    padding: 4%;
+    margin: 0%;
+    border: 1px solid black;
+    width: 34%;
+    background-color: rgb(230, 231, 233);
+}
+input:hover{
+    border:2px solid black;
+}
+#message:hover {
+    border:2px solid black;
+}
+.header {
+    background-color: rgb(100, 7, 7);
+    text-align: center;
+    padding-bottom: 2%;
+}
